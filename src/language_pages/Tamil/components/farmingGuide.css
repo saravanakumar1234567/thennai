@@ -1,0 +1,84 @@
+.farming-guide {
+  padding: 40px 20px;
+}
+
+.guide-header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0090E1;
+}
+
+.guide-header h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.guide-header p {
+  font-size: 18px;
+  color: #4CAF50;
+}
+
+.guide-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+.guide-steps .top-row,
+.guide-steps .bottom-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; 
+}
+
+.guide-steps .guide-card {
+  width: 350px; 
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.guide-steps .guide-card:hover {
+  transform: translateY(-5px);
+}
+
+.guide-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.guide-steps .guide-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.guide-steps .guide-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+.know-more-btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.know-more-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.know-more-btn:hover {
+  background-color: #45a049;
+}

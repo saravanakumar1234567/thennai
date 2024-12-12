@@ -1,0 +1,142 @@
+/* General Styles */
+.about-us-container {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  .about-us-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .about-us-header h1 {
+    font-size: 36px;
+    color: #4CAF50;
+    font-weight: 700;
+  }
+  .about-us-header p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  /* Mission and Vision Section */
+  .mission-vision {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    justify-content: space-between;
+  }
+  .card {
+    flex: 1 1 calc(50% - 20px);
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .card img {
+    width: 80%;
+    max-height: 150px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .card .text h2 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+  }
+  .card .text p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Values Section */
+  .values-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .values-section h2 {
+    font-size: 28px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  .values-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  .value-card {
+    flex: 1 1 calc(25% - 20px);
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .value-icon {
+    font-size: 32px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+  }
+  .value-card h3 {
+    font-size: 18px;
+    color: #4CAF50;
+    margin-bottom: 8px;
+  }
+  .value-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* About Thennai Section */
+  .about-thennai {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .about-thennai .text-content {
+    flex: 1 1 calc(60% - 20px);
+  }
+  .about-thennai .text-content h2 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+  }
+  .about-thennai .text-content p {
+    font-size: 16px;
+    color: #555;
+  }
+  .about-thennai .image-content {
+    flex: 1 1 calc(40% - 20px);
+    text-align: center;
+  }
+  .about-thennai .image-content img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .mission-vision, .about-thennai {
+      flex-direction: column;
+    }
+    .values-grid {
+      flex-direction: column;
+    }
+    .value-card {
+      flex: 1 1 100%;
+    }
+  }
+  

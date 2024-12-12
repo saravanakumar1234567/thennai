@@ -1,0 +1,13 @@
+{
+    "farming_guide": {
+      "header": "Farming Guide for Coconuts",
+      "intro": "Discover the step-by-step guide to successfully cultivating coconuts. From land preparation to harvesting, we have all the details covered for you.",
+      "steps": {
+        "land_preparation": {
+          "title": "Land Preparation",
+          "description": "Begin by clearing the land of weeds, rocks, and debris. Test the soil pH, and ensure proper drainage to avoid waterlogging. Plowing the soil helps in better aeration, essential for root growth."
+        }
+      }
+    }
+  }
+  

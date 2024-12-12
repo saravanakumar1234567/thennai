@@ -1,0 +1,143 @@
+/* Apply Poppins font globally */
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 70px;
+    margin-right: 25px;
+  }
+  
+  .logo-text {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    font-weight: bold;    /*text bold*/
+  }
+  
+  .nav-links a:hover {
+    color: #007A5C;
+    text-shadow: 0 0 8px rgba(163, 216, 165, 0.832); /* Green glow */
+  }
+
+  .contact-btn a {
+    text-decoration: none;
+    background-color: #007A5C;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  
+  /* Toggle button styles for mobile */
+.toggle-btn {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Start hidden on the right */
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out;
+    z-index: 1000;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .sidebar.open {
+    right: 0; /* Open from the right */
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-links li {
+    margin: 10px 0;
+  }
+  
+  .sidebar-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px; /* Add spacing between letters */
+  }
+  
+  /* Media Queries */
+  @media (max-width: 767px) {
+    .toggle-btn {
+      display: block;
+    }
+  
+    .nav-links,
+    .contact-btn {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+  }
+  .language-btn button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .language-btn button:hover {
+    background-color: #f0f0f0;
+  }
+  
